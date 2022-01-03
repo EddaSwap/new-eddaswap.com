@@ -1,0 +1,148 @@
+body {
+  font-family: "Montserrat", Helvetica, sans-serif !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.floating-item {
+  -webkit-animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-20px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #141416;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Load Circular */
+
+@font-face {
+  font-family: "Circular";
+  src: local('Circular'), url("./fonts/Circular/CircularStd-Light.otf");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: local('Circular'), url("./fonts/Circular/CircularStd-Medium.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: local('Circular'), url("./fonts/Circular/CircularStd-Medium.otf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: local('Circular'), url("./fonts/Circular/CircularStd-Bold.otf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: local('Circular'), url("./fonts/Circular/CircularStd-Bold.otf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@media screen and (max-width: 1400px) {
+  .eco-cover {
+    display: none;
+  }
+}
+
+.eco-cover {
+  position: relative;
+  top: -200px;
+  height: 400px;
+  z-index: 10;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.edda-button {
+  transition: 0.3s ease;
+}
+
+.edda-button:hover {
+  box-shadow: 0 17px 15px -9px rgba(0,0,0,.31);
+  opacity: 1;
+}
+
+@media screen and (min-width: 1700px) {
+  .eco-cover {
+    top: -300px;
+  }
+}
+
+
+@media screen and (min-width: 2000px) {
+  .eco-cover {
+    top: -450px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .eco-cover {
+    top: -550px;
+  }
+}

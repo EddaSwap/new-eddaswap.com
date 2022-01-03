@@ -1,0 +1,13 @@
+.gradient-divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    90deg,
+    #ff59f8 0%,
+    #ae72ff 19.79%,
+    #90e9ed 40.62%,
+    #5cd167 61.98%,
+    #ffee00 82.53%
+  );
+  margin: 0 auto;
+}

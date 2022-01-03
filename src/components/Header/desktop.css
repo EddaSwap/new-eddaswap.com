@@ -1,0 +1,144 @@
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 38px;
+  padding: 0px 60px;
+}
+
+.header-menu {
+  height: 38px;
+  display: flex;
+  /* flex-basis: auto; */
+}
+
+.header-item {
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #020313;
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}
+
+.header-item:hover {
+  color: #0e3ca5;
+}
+
+.burger-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .header-container {
+    padding: 0px 20px;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .header-menu {
+    display: none;
+  }
+
+  .bm-burger-button {
+    display: block !important;
+  }
+
+  .header-container {
+    padding: 0px 40px;
+    justify-content: space-between;
+  }
+  .burger-icon {
+    display: block;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .header-container {
+    padding: 0px 20px;
+  }
+
+}
+
+.header-logo-container {
+  height: 45.9px;
+  align-self: center;
+}
+
+.header-logo {
+  width: 210px;
+  height: 45.9px;
+  align-self: center;
+}
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #777e90;
+  transition: color 0.2s;
+  margin-bottom: 20px;
+}
+
+.bm-item:hover {
+  color: #777e90;
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+  display: none;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #777e90;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #23262f;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  background: #23262f;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: #23262f !important;
+}
+
+.header-social {
+  display: flex;
+  align-items: center;
+}

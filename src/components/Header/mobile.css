@@ -1,0 +1,33 @@
+.mobile-menu {
+  height: 0px;
+  width: 100vw;
+  background: #ededf2;
+  padding-top: 20px;
+  /* position: absolute; */
+  z-index: 50;
+  overflow: hidden;
+  transition: height 400ms ease 0s;
+  /* transform: translateY(-1000px) */
+}
+
+.menu-link {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.menu-link-item {
+  padding: 16px 24px;
+  color: #151b26 !important;
+  font-size: 16px;
+  font-weight: 700;
+  border-top: 1px solid #e0e6e8;
+  text-align: left;
+  text-decoration: none;
+}
+
+.menu-active {
+  /* transform: translateY(1000px); */
+  height: 800px;
+  transition: height 400ms ease 0s;
+}

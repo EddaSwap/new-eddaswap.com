@@ -1,0 +1,148 @@
+#inthepress {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #020313;
+}
+
+#inthepress .ant-row {
+  display: flex;
+  justify-content: center;
+}
+.press-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 64px;
+  font-family: Circular, Helvetica, sans-serif;
+}
+.press-header {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 0px 40px;
+}
+
+.press-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 35px;
+  height: 60px;
+}
+
+.press-image-item {
+  flex: 1 calc(33% - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.press-image-item-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inthepress-card {
+  width: 278px;
+  cursor: pointer;
+}
+
+.inthepress-image {
+  width: 100%;
+  background-color: #e6007a;
+  border-radius: 14px;
+  height: 142px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inthepress-image img {
+  width: 90%;
+  object-fit: contain;
+}
+
+.inthepress-content {
+  padding: 24px 0px;
+  text-align: left;
+}
+
+.inthepress-title {
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.inthepress-description {
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.press-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 56px;
+}
+
+.press-controls img {
+  margin-right: 20px;
+  /* margin-top: 40px;
+  margin-bottom: 80px; */
+}
+
+.inthepress-slider {
+  width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+  .front-press {
+    font-size: 32px;
+    line-height: 48px;
+    /* width: 180px; */
+    left: calc(50% - 90px);
+  }
+  .back-press {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .press-header {
+    text-align: center;
+  }
+
+  #inthepress {
+    padding-top: 80px !important;
+  }
+
+  .info-box {
+    padding: 24px 40px
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .press-title {
+    font-size: 32px;
+    line-height: 120%;
+    /* margin: 32px 35px; */
+    margin-bottom: 64px;
+  }
+
+  .press-image {
+    margin: 32px 35px;
+    height: 45px;
+  }
+
+  .inthepress-container {
+    padding: 0px 32px !important;
+  }
+}

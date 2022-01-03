@@ -1,0 +1,296 @@
+.eco-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 120px 100px 80px 100px;
+}
+
+.ecosystem-header {
+  position: relative;
+  text-align: left;
+  margin-top: 120px;
+  width: 100%;
+
+  padding: 0px 40px 80px 0px;
+}
+
+.ecosystems-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 80px 60px;
+  max-width: 1440px;
+  background: #16151a;
+  /* Main/Dark/Black More */
+
+  border: 1px solid #23262f;
+  box-sizing: border-box;
+  border-radius: 16px;
+  /* background: linear-gradient(180deg, rgba(22,21,26,1) 0%, rgba(22,21,26,1) 80%, rgba(99,39,176,.18) 100%); */
+}
+
+/* .ecosystem-item {
+  flex: 1 0 calc(50% - 20px);
+  color: #fcfcfd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 160px 20px;
+} */
+
+.item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.item-img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.item-desc {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #777e90;
+  margin-bottom: 20px;
+}
+
+.item-btn {
+  padding: 12px 20px;
+  border-radius: 100px;
+  color: #fcfcfd !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  border: 1.5px solid #faa0d1;
+  /* border-image: linear-gradient(
+    132.58deg,
+    rgba(159, 27, 255, 0.14) 7.04%,
+    #faa0d1 100%
+  );
+  border-image-slice: 1; */
+}
+
+.ecosystem-more {
+  color: #e6007a;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ecosystem-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86.4px;
+  text-align: center;
+  margin-bottom: 110px;
+  font-family: Circular, Helvetica, sans-serif;
+}
+
+.ecosystem-item {
+  background-color: #0d0922;
+  padding: 64px 40px 80px 40px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  flex-basis: 47%;
+  animation-timing-function: ease-out;
+}
+
+.ecosystem-item-title {
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.ecosystem-btn {
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  color: #ededf2;
+  background-color: #e6007a;
+
+  text-align: center;
+  padding: 12px 40px;
+  border-radius: 14px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+.ecosystem-description {
+  margin-bottom: 80px;
+  color: #ededf2;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.ecosystem-description p {
+  text-align: left;
+}
+
+.ecosystem-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 48px 110px;
+  /* flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row; */
+}
+
+.exchange-img {
+  margin-left: 35%;
+}
+
+.nft-img {
+  margin-left: -60px;
+}
+
+.turnkey-img {
+  margin: 0 auto;
+  position: relative;
+  bottom: -60px;
+}
+
+.eddaverse-img {
+  margin-left: -60px;
+}
+
+.physical-img {
+  margin-left: -60px;
+}
+
+.ecosystem-artist {
+  text-decoration: none;
+  color: #e6007a;
+  font-weight: 700;
+}
+
+.eco-decentralized {
+  background-image: url("./bg/exchange-full.svg");
+  background-repeat: no-repeat;
+  background-position-y: 105%;
+  background-position-x: 80%;
+}
+
+.eco-nft {
+  /* background-image: url('./bg/nft.svg');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain; */
+  /* padding-bottom: 40px; */
+}
+
+.eco-turnkey {
+  background-image: url("./bg/turnkey.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.eco-physical {
+  background-image: url("./bg/physical-hor.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 100%;
+  grid-column: 1 / span 2;
+  padding-right: 450px;
+  padding-bottom: 64px !important;
+  background-size: 33% ;
+}
+
+.eco-eddaverse {
+  /* background-image: url('./bg/eddaverse.svg');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain; */
+}
+
+.ecosystem-lottie {
+  margin: 40px -60px 0px -60px;
+}
+
+@media screen and (max-width: 960px) {
+  .ecosystem-wrapper {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0;
+  }
+  .ecosystem-item {
+    flex: 1;
+    /* margin-bottom: 20px; */
+    border-radius: 0px !important;
+    flex-basis: 100%;
+  }
+  .eco-container {
+    padding: 80px 0px !important;
+  }
+  .ecosystem-title {
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
+  .ecosystem-title {
+    margin-bottom: 80px !important;
+    padding: 0px 32px 0px 32px;
+  }
+
+  .eco-physical {
+    background-image: url("./bg/physical.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: 80%;
+    padding-bottom: 500px !important;
+    padding-right: 40px;
+    background-size: 75% !important;
+  }
+
+  .eco-turnkey {
+    padding-bottom: 300px !important;
+  }
+
+  .eco-decentralized {
+    padding-bottom: 300px !important;
+    background-position-y: 100% !important;
+  }
+
+  .eco-eddaverse {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ecosystems-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 496px) {
+  .edda-dex-button {
+    margin-bottom: 0px;
+  }
+  .eco-decentralized {
+    background-position-x: 130%;
+  }
+
+  .eco-turnkey {
+    padding-bottom: 180px !important;
+  }
+
+  .eco-physical {
+    background-size: 100% !important;
+    padding-bottom: 400px !important;
+  }
+}
